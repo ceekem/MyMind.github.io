@@ -51,7 +51,9 @@ code {
 .m-type-heading-1 {
   font-size: 1.5em;
   font-weight: 400;
-  margin: 16px 0; }
+  margin: 16px 0;
+  display: flex;
+  justify-content: center; }
 
 /* line 86, /Users/miguelperez/Sites/csstricks/source/stylesheets/layout.css.scss */
 .m-lorem {
@@ -84,7 +86,7 @@ code {
 @media screen and (min-width: 1024px) {
   /* line 126, /Users/miguelperez/Sites/csstricks/source/stylesheets/layout.css.scss */
   .m-header {
-    padding: 18.5em 8.5em 4.25em; } }
+    padding: 20.5em 8.5em 4.25em; } }
 /* line 135, /Users/miguelperez/Sites/csstricks/source/stylesheets/layout.css.scss */
 .m-button {
   display: block;
@@ -113,8 +115,9 @@ code {
 
 /* line 174, /Users/miguelperez/Sites/csstricks/source/stylesheets/layout.css.scss */
 .m-segment {
-  padding: 1em 4.25em;
-  border-bottom: 1px solid #cfd8dc; }
+  padding: 1em 4.25em; 
+  background-color: white;
+  border: none;}
   /* line 178, /Users/miguelperez/Sites/csstricks/source/stylesheets/layout.css.scss */
   .m-segment .segment_content {
     margin: 16px 0;
