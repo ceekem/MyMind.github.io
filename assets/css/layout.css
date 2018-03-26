@@ -8,6 +8,11 @@ body {
   color: #eceff1;
   line-height: 1.5; }
 
+  img{
+    display: flex;
+    align-items: center;
+  }
+
 @media screen and (min-width: 500px) {
   /* line 32, /Users/miguelperez/Sites/csstricks/source/stylesheets/layout.css.scss */
   body {
