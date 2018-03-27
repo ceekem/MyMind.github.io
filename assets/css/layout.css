@@ -70,17 +70,6 @@ code {
     font-size: 40px;
     color: #002D4A
   }
-/* line 86, /Users/miguelperez/Sites/csstricks/source/stylesheets/layout.css.scss */
-.m-lorem {
-  background-color: #eceff1;
-  display: inline; }
-
-/* line 95, /Users/miguelperez/Sites/csstricks/source/stylesheets/layout.css.scss */
-.m-code {
-  display: block;
-  margin: 1.5em 0;
-  padding: 1em;
-  border-bottom: 1px solid #cfd8dc; }
 
 /* line 106, /Users/miguelperez/Sites/csstricks/source/stylesheets/layout.css.scss */
 .m-header {
