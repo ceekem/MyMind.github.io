@@ -107,7 +107,10 @@ code {
   /* box-model: border-box; */} 
   /* line 143, /Users/miguelperez/Sites/csstricks/source/stylesheets/layout.css.scss */
   .m-button .txt {
-    color: #eceff1;
+    color: #0f2738;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-top: 40px;
     transition: background-color 0.15s ease-in; }
   /* line 148, /Users/miguelperez/Sites/csstricks/source/stylesheets/layout.css.scss */
   .m-button:hover {
