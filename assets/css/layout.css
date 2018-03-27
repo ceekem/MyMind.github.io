@@ -185,4 +185,7 @@ code {
 
     #lo{
       font-family: 'AvenirNext LT Pro Regular';
+      position: absolute;
+      top: 145px;
+      left: 50%;
     }
