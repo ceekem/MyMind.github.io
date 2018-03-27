@@ -9,8 +9,8 @@ body {
   line-height: 1.5; }
 
   img{
-    display: flex;
-    align-items: center;
+    padding-top: 205px;
+    padding-left: 38px
   }
 
 @media screen and (min-width: 500px) {
@@ -60,6 +60,11 @@ code {
   display: flex;
   justify-content: center; }
 
+
+  .close{
+    font-size: 40px;
+    color: #002D4A
+  }
 /* line 86, /Users/miguelperez/Sites/csstricks/source/stylesheets/layout.css.scss */
 .m-lorem {
   background-color: #eceff1;
@@ -91,7 +96,7 @@ code {
 @media screen and (min-width: 1024px) {
   /* line 126, /Users/miguelperez/Sites/csstricks/source/stylesheets/layout.css.scss */
   .m-header {
-    padding: 32.5em 8.5em 4.25em; } }
+    padding: 31.5em 8.5em 4.25em; } }
 /* line 135, /Users/miguelperez/Sites/csstricks/source/stylesheets/layout.css.scss */
 .m-button {
   display: block;
@@ -99,7 +104,7 @@ code {
   overflow: hidden;
   background-color: #4472B9;
   min-width: 92px;
-  box-model: border-box; }
+  /* box-model: border-box; */} 
   /* line 143, /Users/miguelperez/Sites/csstricks/source/stylesheets/layout.css.scss */
   .m-button .txt {
     color: #eceff1;
