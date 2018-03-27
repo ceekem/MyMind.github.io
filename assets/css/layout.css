@@ -106,7 +106,7 @@ code {
   min-width: 92px;
   /* box-model: border-box; */} 
   /* line 143, /Users/miguelperez/Sites/csstricks/source/stylesheets/layout.css.scss */
-  .m-button .txt {
+.txt {
     color: #0f2738;
     font-weight: bold;
     padding-left: 10px;
