@@ -192,9 +192,11 @@ code {
     }
    
     #e{
-       left:10px;
+      display: flex;
+      justify-content: center;
     }
 
     #p{
-      left:5px;
+      display: flex;
+      justify-content: center;
     }
