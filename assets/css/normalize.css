@@ -95,7 +95,11 @@ a:hover {
  */
 /* line 108, /Users/miguelperez/Sites/csstricks/source/stylesheets/normalize.css.scss */
 h1 {
-  font-size: 2em; }
+  font-size: 4em;
+  margin: 0px;
+  position: fixed;
+  justify-content: center;
+}
 
 /*
  * Addresses styling not present in IE 8/9, Safari 5, and Chrome.

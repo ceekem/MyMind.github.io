@@ -26,3 +26,26 @@ $(function(){
       },
       smoothState = $page.smoothState(options).data('smoothState');
 });
+
+// pleaseholder script
+
+$(function () {
+  $('input,textarea').focus(function () {
+      $(this).data('placeholder', $(this).attr('placeholder'))
+             .attr('placeholder', '');
+  }).blur(function () {
+      $(this).attr('placeholder', $(this).data('placeholder'));
+  });
+});
+
+//hide script
+
+$().ready(function(){
+  $(".password").click(function(){
+      $('span').removeClass('line2');
+   });
+
+   $(".email").click(function(){
+    $('span').removeClass('line');
+ });
+});

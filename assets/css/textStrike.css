@@ -1,38 +1,105 @@
-#e {
-    text-decoration: none;
-  }
-  #e span {
-    position: relative;
-    display: inline-block;
-  }
-  #e span::after,
-  #e span::before {
-    content: '';
+/* 
+.option span {
+  position: relative;
+  display: inline-block;
+}
+.option span::after,
+.option span::before {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  top: 50%;
+  margin-top: -0.5px;
+  background: #466C84;
+}
+.option span::before {
+  left: -2.5px;
+}
+.option span::after {
+  right: 2.5px;
+  background: #466C84;
+  -webkit-transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
+  transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+.option:hover span:before {
+  background: #466C84;
+  width: 109%;
+  -webkit-transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
+  transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+.option:hover span:after {
+  background: transparent;
+  width: 100%;
+  -webkit-transition: 0s;
+  transition: 0s;
+  cursor: pointer;
+} */
+
+
+/*text strike*/
+span.line_wrap {
+    position:relative;
+    display:inline-block; 
+    left: -141px;       
+}
+
+
+span.line {
+display:inline-block;
+    position:absolute;
+    left:147px;
+    top:50%;
+    width:0;
+    border-top:3px solid #466C84;
+     transition: 0.5s ease-in;
+}
+span.line_wrap:hover span.line {
+    width: 19%;    
+}
+ 
+/*second */
+
+span.line_wrap2 {
+    position:relative;
+    display:inline-block; 
+    left: -141px;       
+}
+
+
+span.line2 {
+display:inline-block;
+    position:absolute;
+    left:124px;
+    top:50%;
+    width:0;
+    border-top:3px solid #466C84;
+    transition: width 0.5s ease-in;
+}
+
+span.line_wrap2:hover span.line2 {
+    width: 32%;    
+}
+
+button{
     position: absolute;
-    width: 0%;
-    height: 5px;
-    top: 50%;
-    margin-top: -0.5px;
-    background: #466C84;
-  }
-  #e span::before {
-    left: -2.5px;
-  }
-  #e span::after {
-    right: 2.5px;
-    background:#466C84;
-    -webkit-transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
-    transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
-  }
-  #e :hover span:before {
-    background: #466C84#466C84;
-    width: 100%;
-    -webkit-transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
-    transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
-  }
-  #e :hover span:after {
+    right: 299px;
+    margin-top: 18px;
+}
+
+form{
+    position: absolute;
+    top: 96px;
+    left: 35px;
+    z-index: 6;
+}
+
+.email, .password{
     background: transparent;
-    width: 100%;
-    -webkit-transition: 0s;
-    transition: 0s;
-  }
+    border:none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: rgb(70, 108, 132);
+    text-align: center;
+    cursor: pointer;
+}
