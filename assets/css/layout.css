@@ -2,14 +2,14 @@
 ------------------------------------------------------------------- */
 /* line 23, /Users/miguelperez/Sites/csstricks/source/stylesheets/layout.css.scss */
 @font-face{
-      font-family:'Avenir next Regular' ;
+      font-family:'AvenirNext LT Pro Regular' ;
       src: url(assets/font/AvenirNextLTPro-Regular.otf);
 }
 
 body {
   font-size: 0.75em;
   background-color: white;
-  font-family: 'Avenir next Regular';
+  font-family: 'AvenirNext LT Pro Regular';
   color: #eceff1;
   line-height: 1.5; }
 
@@ -195,5 +195,5 @@ code {
     text-decoration: underline; }
 
     #lo{
-      font-family: 'Avenir next Regular';
+      font-family: 'AvenirNext LT Pro Regular';
     }
