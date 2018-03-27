@@ -3,7 +3,7 @@
 /* line 23, /Users/miguelperez/Sites/csstricks/source/stylesheets/layout.css.scss */
 @font-face{
       font-family:'AvenirNext LT Pro Regular' ;
-      src: url(assets/font/AvenirNextLTPro-Regular.otf);
+      src: url(./assets/font/AvenirNextLTPro-Regular.otf);
 }
 
 body {
