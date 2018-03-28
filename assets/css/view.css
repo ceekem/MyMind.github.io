@@ -258,11 +258,12 @@ form li .datepicker
 	position: absolute;
     right: 10%;
 	top: 38%;
-	color: black;
+	color:rgb(50, 82, 102);    
+	font-weight: normal;
 }
 
-p :hover{
-   color:#466C84;
+.form_description :hover{
+   color:rgb(19, 36, 46)
 }
 
 form hr
