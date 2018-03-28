@@ -50,4 +50,3 @@ $().ready(function(){
    });
 });
 
-$("textarea").resizable();
