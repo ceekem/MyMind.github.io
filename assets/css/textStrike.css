@@ -85,6 +85,9 @@ button{
     position: absolute;
     right: 273px;
     margin-top: 11px;
+    background: transparent;
+    border: none;
+    font-weight: bold;
 }
 
 form{
