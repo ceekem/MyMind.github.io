@@ -44,11 +44,9 @@ transition: color 0.15s ease-in; }
 a:hover {
   color: #3D67A6; }
 /* line 45, /Users/miguelperez/Sites/csstricks/source/stylesheets/layout.css.scss */
-a:active, a:focus {
+a:hover, a:focus {
   color: #222; }
 /* line 49, /Users/miguelperez/Sites/csstricks/source/stylesheets/layout.css.scss */
-a:visited {
-  color: #673ab7; }
 
 /* line 54, /Users/miguelperez/Sites/csstricks/source/stylesheets/layout.css.scss */
 code {
@@ -79,6 +77,12 @@ right: 102px;
 bottom: -154px;
 }
 
+.m-type-heading-2 {
+    font-size: 1.5em;
+    font-weight: 400;
+    margin: 16px 0;
+    display: flex;
+    justify-content: center; }
 
 .close{
   font-size: 125px;
