@@ -49,3 +49,5 @@ $().ready(function(){
     $('span').removeClass('line');
    });
 });
+
+$("textarea").resizable();

@@ -213,6 +213,7 @@ code {
   top: 97px;
   right: -21px;
   margin: 23px;
+  cursor: default;
 }
 
 .mi{
@@ -229,6 +230,7 @@ code {
   bottom: 288px;
   color: #466C84;
   left: 172px;
+  cursor: default;
 }
 
 .mi2{
