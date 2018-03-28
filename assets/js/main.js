@@ -47,5 +47,5 @@ $().ready(function(){
 
    $(".email").click(function(){
     $('span').removeClass('line');
- });
+   });
 });

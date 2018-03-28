@@ -48,7 +48,7 @@ span.line_wrap {
 span.line {
 display:inline-block;
     position:absolute;
-    left:147px;
+    left:126px;
     top:50%;
     width:0;
     border-top:3px solid #466C84;
@@ -70,7 +70,7 @@ span.line_wrap2 {
 span.line2 {
 display:inline-block;
     position:absolute;
-    left:124px;
+    left:107px;
     top:50%;
     width:0;
     border-top:3px solid #466C84;
@@ -81,16 +81,16 @@ span.line_wrap2:hover span.line2 {
     width: 32%;    
 }
 
-button{
+/* button{
     position: absolute;
-    right: 299px;
-    margin-top: 18px;
-}
+    right: 273px;
+    margin-top: 11px;
+} */
 
 form{
     position: absolute;
     top: 96px;
-    left: 35px;
+    left: 67px;
     z-index: 6;
 }
 
@@ -98,7 +98,7 @@ form{
     background: transparent;
     border:none;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 30px;
+    font-size: 25px;
     color: rgb(70, 108, 132);
     text-align: center;
     cursor: pointer;
