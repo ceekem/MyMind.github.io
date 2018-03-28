@@ -9,7 +9,7 @@ body
 
 #form_container
 {
-	background:#fff;
+	background:rgba(255, 255, 255);
 	
 	margin:0 auto;
 	text-align:left;
@@ -58,7 +58,7 @@ form.appnitro
 /**** Logo Section  *****/
 h1
 {
-	background-color:#666699;
+	background-color: #466C84;
 	margin:0;
 	min-height:0;
 	padding:0;
@@ -252,9 +252,17 @@ form li .datepicker
 
 .form_description p
 {
-	font-size:95%;
-	line-height:130%;
-	margin:0 0 12px;
+	font-size: 123px;
+    line-height: 130%;
+    margin: 0 0 12px;
+	position: absolute;
+    right: 10%;
+	top: 38%;
+	color: black;
+}
+
+p :hover{
+   color:#466C84;
 }
 
 form hr
