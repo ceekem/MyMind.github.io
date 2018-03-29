@@ -2,11 +2,6 @@
   /* @mixin respond-to
 ------------------------------------------------------------------- */
 /* line 23, /Users/miguelperez/Sites/csstricks/source/stylesheets/layout.css.scss */
-@font-face{
-    font-family:'AvenirNext LT Pro Regular' ;
-    src: url("/assets/font/AvenirNextLTPro-Regular.otf") format("otf");
-    src: url('/assets/font/AvenirNext')
-}
 
 @font-face { 
     font-family: 'compassmedium';     
@@ -193,9 +188,6 @@ margin-top: 0; }
 background-color: #002D4A;
 color: #eceff1; }
 /* line 261, /Users/miguelperez/Sites/csstricks/source/stylesheets/layout.css.scss */
-.m-highlight a {
-  color: #eceff1;
-  text-decoration: underline; }
 }
 
 #lo {
